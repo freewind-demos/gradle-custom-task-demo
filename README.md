@@ -1,22 +1,10 @@
-Gradle Hello World Demo
-=======================
+Gradle Define Custom Task Demo
+==============================
 
-A very simple java project with gradle.
+How to define custom task in `build.gradle`
 
-Run tests:
-
-```
-./gradlew test
-```
-
-Setup in IDEA
---------------
-
-Use command line:
+Run:
 
 ```
-idea .
+./gradlew hello
 ```
-
-Or import the project directly with IDEA.
-

@@ -1,18 +1,7 @@
-apply plugin: 'java'
-
-repositories {
-    mavenLocal()
-    jcenter()
+task standup() {
+    println "Stand up"
 }
 
-dependencies {
-    compile 'org.apache.commons:commons-lang3:3.4'
-    testCompile 'junit:junit:4.11'
-    testCompile 'org.easytesting:fest-assert-core:2.0M10'
-}
-
-// used to generate `./gradlew`
-// by run `gradle wrapper`
-task wrapper(type: Wrapper) {
-    gradleVersion = '4.9' //version required
+task hello(dependsOn: standup) {
+    println "Hello, world"
 }
