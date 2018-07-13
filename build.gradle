@@ -5,3 +5,9 @@ task standup() {
 task hello(dependsOn: standup) {
     println "Hello, world"
 }
+
+task hello2() {
+    println "Hello, world, too"
+}
+
+hello2.dependsOn hello

@@ -8,3 +8,9 @@ Run:
 ```
 ./gradlew hello
 ```
+
+or
+
+```
+./gradlew hello2
+```
